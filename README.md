@@ -32,3 +32,18 @@ const person = JSON.parse(jsonString);
 
 console.log(person.name); // Output: Sujon Ahmed
 ```
+
+## Stringify JS objects to JSON
+To convert a JavaScript Object into a JSON string, you can use JSON.stringify().
+
+```js
+const person = {
+    name: "Sujon Ahmed"
+    age: 24
+};
+
+const jsonString = JSON.stringify(person);
+
+console.log(jsonString);
+// Output: '{"name": "Sujon Ahmed", "age": 24}'
+```

@@ -21,3 +21,14 @@ const person = {
 // JSON Array
 const fruits = ["Apple", "Banana", "Orange", "Mango"];
 ```
+
+## Parse JSON
+To convert a JSON string into a Javascript object, you can use JSON.parse().
+
+```js
+const jsonString = '{"name": "Sujon Ahmed", "age": 24}';
+
+const person = JSON.parse(jsonString);
+
+console.log(person.name); // Output: Sujon Ahmed
+```

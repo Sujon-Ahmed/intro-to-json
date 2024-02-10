@@ -61,3 +61,19 @@ JSON supports nested structures, allowing you to create complex data hierarchies
     }
 }
 ```
+
+## Working with JSON Arrays
+JSON array can contain multiple values of different types, including other objects or arrays.
+
+```js
+[
+    {
+        "name": "Sujon Ahmed",
+        "age": 24
+    },
+    {
+        "name": "Riman",
+        "age": 25
+    }
+]
+```

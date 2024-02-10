@@ -47,3 +47,17 @@ const jsonString = JSON.stringify(person);
 console.log(jsonString);
 // Output: '{"name": "Sujon Ahmed", "age": 24}'
 ```
+
+## Nested JSON
+JSON supports nested structures, allowing you to create complex data hierarchies.
+
+```js
+{
+    "name": "Sujon Ahmed",
+    "age": 24,
+    "address": {
+        "city": "Dhaka City",
+        "zipCode": "1207"
+    }
+}
+```
